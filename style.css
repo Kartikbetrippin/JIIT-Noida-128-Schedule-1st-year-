@@ -1,0 +1,89 @@
+h1{
+    color:white;
+    font-family: "Jersey 15", serif;
+    margin-left: 50px;
+}
+div{
+    padding:0;
+    
+}
+body{
+    padding-top: 100px;
+    background-color: black;
+    height: fit-content;
+    margin: 0px;
+    overflow-x: hidden;
+}
+#topHeader{
+    margin-bottom: 50px;
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+}
+#time{
+    display:flex;
+    padding:0px;
+    width: 98%;
+    height: max-content;
+    background: linear-gradient(90deg,white,black);
+    overflow:hidden;
+    justify-content: space-between;
+}
+#scroll{
+color:white;
+font-family: "Jersey 15", serif;
+transition: transform 1s ease;
+}
+
+#batch{ 
+    font-family: "Jersey 15", serif;
+    font-size: 2rem;
+    margin:20px 0 20px 10px;
+    transform: translateX(-300px);
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 5px;
+    width:fit-content;
+}
+#buttonContainer>button{
+    font-family: "Jersey 15", serif;
+    font-size: 1.3rem;
+    background-color:black;
+    color:white;
+    border:1px solid white;
+    border-radius: 5px;
+    margin:5px;
+    width: 60px;
+
+}
+#buttonContainer{
+    margin-bottom: 0px;
+    
+    width: 100%;
+    margin-left:20px;
+}
+
+
+
+
+
+#daySelector{
+    display: none;
+    justify-content:center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    
+}
+#daySelector>button{
+   background-color:black;
+    font-family: "Jersey 15", serif;
+    border:1px solid white;
+    color:white;
+    padding:5px;
+    border-radius: 5px;
+    margin:2px;
+    min-width: 100px;
+    font-size: 1.2rem;
+}
